@@ -1,0 +1,6 @@
+Add(1,2) = 3 => Should_Add_Two_Numbers();
+Add(10,5) = 15 => Should_Add_Two_Numbers();
+Divide(10,2) = 5 => Should_Divide_Two_Numbers();
+ProcessFiles("file1.txt","file2.txt") => Should_Process_Two_Files();
+CalculateCompoundInterest(1000.00,7.5,1) = 1750.00 => Should_Calculate_Compound_Interest();
+TransferAccount(FromAccount,ToAccount) = true => Should_Return_True_After_Transfer_FromAccount_ToAccount();
