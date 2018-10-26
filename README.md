@@ -1,6 +1,9 @@
 # Test Case Generator
 A tool to generate C# methods as well as test cases for those methods, quickly.
 
+## System Requirements
+It requires .Net Framework 4.0 and above to work with no other dependencies.
+
 ## How it works?
 You either type the Test case inline or create a bunch of test cases in a .txt file and pass on the file location and the tool will create all those methods on your left and test cases on your right. You could just copy them to your respective class files and take it further.
 
