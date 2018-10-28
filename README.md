@@ -2,7 +2,7 @@
 A tool to generate C# methods as well as test cases for those methods, quickly.
 
 ## Next Update
-Working on including Exception test cases and improvements to existing Regular class where duplicate methods are added. Please watching this space for more updates.
+Working on including Exception test cases and improvements to existing Regular class where duplicate methods are added. Keep watching this space for more updates.
 
 ## System Requirements
 It requires .Net Framework 4.0 and above to work with no other dependencies.
