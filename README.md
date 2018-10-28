@@ -1,8 +1,8 @@
 # Test Case Generator
 A tool to generate C# methods as well as test cases for those methods, quickly.
 
-## Next Update
-Working on including Exception test cases and improvements to existing Regular class where duplicate methods are added. Keep watching this space for more updates.
+## What's new?
+Current update can now create test cases to Assert.Throw<Exception> and remove duplicate method generation in the Regular class and also defines the way you could generate it as part of the comment just above the method.
 
 ## System Requirements
 It requires .Net Framework 4.0 and above to work with no other dependencies.
@@ -25,6 +25,16 @@ Here is one of the sample test case:
 
 <b> => </b> is the separator.
 
+## For Exceptions
+Here is one of the sample test case:
+
+<b>Add(1,2) = 3,ArgumentNullException => Should_Throw_ArgumentNullException();</b>
+
+<b>Add(1,2) = 3</b> is the actual method you will be implementing. <b>Add(1,2)</b> is the method signature, <b> = 3</b> is the return value. However <b>ArgumentNullException</b> defined in the return value, separated by <b>Comma</b>, will create the test case to <b>Assert.Throws</b> instead of <b>Assert.Equal</b>.
+
+<b>Should_Throw_ArgumentNullException();</b> is the test case for the implementation.
+
+<b> => </b> is the separator.
 
 ### Sample showing generation from Text File
 ![alt text](https://github.com/proinfocus/TestCaseGenerator/blob/master/screenshot-1.png)
